@@ -1,0 +1,6 @@
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge05_StarWarsTrivia\bin\Debug\CodeChallenge05_StarWarsTrivia.exe.config
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge05_StarWarsTrivia\bin\Debug\CodeChallenge05_StarWarsTrivia.exe
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge05_StarWarsTrivia\bin\Debug\CodeChallenge05_StarWarsTrivia.pdb
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge05_StarWarsTrivia\obj\Debug\CodeChallenge05_StarWarsTrivia.csprojResolveAssemblyReference.cache
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge05_StarWarsTrivia\obj\Debug\CodeChallenge05_StarWarsTrivia.exe
+C:\Users\qheiner\Dropbox\Work\STG\Training\STGCodeChallenges\CodeChallenge05_StarWarsTrivia\obj\Debug\CodeChallenge05_StarWarsTrivia.pdb
