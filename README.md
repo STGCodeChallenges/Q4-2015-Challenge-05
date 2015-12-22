@@ -1,4 +1,4 @@
-#Challenge #5 (due 12/21/2015): Star Wars Trivia
+#Challenge #5 (due 12/22/2015): Star Wars Trivia
 With all the hype around Star Wars: The Force Awakens, we’ve been tasked to come up with a Star Wars trivia game in order to refresh everyone’s memories of the previous episodes.
 
 #Description
