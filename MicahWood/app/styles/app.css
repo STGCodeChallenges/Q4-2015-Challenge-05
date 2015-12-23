@@ -1,0 +1,122 @@
+body {
+  background-color: #000;
+  color: #FFF;
+  font-family: sans-serif;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+h1 {
+  color: #FCDF2B;
+  text-align: center;
+}
+.logo {
+  -webkit-animation: logo 9s ease-out forwards;
+  animation: logo 9s ease-out forwards;
+}
+.button-group {
+  -webkit-animation: buttons 2s ease-out 3s forwards;
+  animation: buttons 2s ease-out 3s forwards;
+  opacity: 0;
+}
+.button {
+  width: 300px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 34px 0;
+  border-radius: 80px;
+  margin: 0 auto;
+  font-size: 30px;
+  background-color: black;
+  cursor: pointer;
+}
+.button--light {
+  color: green;
+  border: 3px solid green;
+}
+.button--dark {
+  color: red;
+  border: 3px solid red;
+}
+
+ul#choices {
+  list-style: none;
+  margin-top: 1em;
+  padding-left: 0;
+}
+
+ul#choices li {
+  cursor: pointer;
+  padding: 20px 0;
+  border-bottom: 1px solid;
+  transition: all .3s ease-in;
+}
+
+ul#choices li:hover {
+  border-bottom-width: 4px;
+  font-weight: bold;
+}
+
+ul#choices li:nth-child(1) {
+  color: #FCDF2B;
+  border-color: #FCDF2B;
+}
+ul#choices li:nth-child(2) {
+  color: blue;
+  border-color: blue;
+}
+ul#choices li:nth-child(3) {
+  color: green;
+  border-color: green;
+}
+ul#choices li:nth-child(4) {
+  color: red;
+  border-color: red;
+}
+
+@keyframes logo {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@-webkit-keyframes logo {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes buttons {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes buttons {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
