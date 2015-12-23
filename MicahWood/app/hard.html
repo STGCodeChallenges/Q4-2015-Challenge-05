@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Star Wars Trivia</title>
+  <link rel="stylesheet" href="/styles/app.css">
+</head>
+<body>
+  <h1>Star Wars Trivia</h1>
+
+  <span id="numPlayers">Waiting on players to join...</span>
+  <hr>
+  <h3>Player List</h3>
+  <ul id="playerList"></ul>
+  <hr>
+  <div class="gamebuttons">
+    <button class="button button--dark" id="startGame">Start Game</button>
+  </div>
+  <div class="question-container">
+    <p id="question"></p>
+    <ul id="choices"></ul>
+  </div>
+  <p id="gameMessage"></p>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script>
+    var name = prompt('Enter your name');
+    var difficulty = 'hard';
+    var socket = io();
+  </script>
+  <script src="/scripts/hard.js"></script>
+  <script src="/scripts/socket-game.js"></script>
+</body>
+</html>

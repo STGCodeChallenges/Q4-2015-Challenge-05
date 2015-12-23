@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Star Wars Trivia</title>
+  <link rel="stylesheet" href="/styles/app.css">
+</head>
+<body>
+  <audio preload="auto">
+    <source src="http://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.ogg" type="audio/ogg" />
+    <source src="http://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" />
+  </audio>
+  <h1>Star Wars Trivia</h1>
+  <img class="logo" src="starwars.png" alt="Star Wars">
+
+  <div class="button-group">
+    <a href="/easy" class="button button--light">Play Easy</a>
+    <a href="/hard" class="button button--dark">Play Hard</a>
+  </div>
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script type="text/javascript">
+    $('audio').get(0).play();
+  </script>
+</body>
+</html>
